@@ -1,0 +1,14 @@
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL,
+  `firstname` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `gender` enum('male','female','other') NOT NULL,
+  `DateOfBirth` text NOT NULL,
+  `Religion` varchar(50) NOT NULL,
+  `PresentAddress` varchar(100) NOT NULL,
+  `PermanentAddress` varchar(100) NOT NULL,
+  `phone` varchar(11) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `username` varchar(30) NOT NULL,
+  `pwd` varchar(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
